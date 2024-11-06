@@ -3,7 +3,7 @@ import java.util.Scanner;
  * A program to carry on conversations with a human user.
  * Uses advanced search for keywords 
  * Will transform statements as well as react to keywords
- *   jhf
+ *   jhfdfgfg
  * @author 
  * @version 
  *
