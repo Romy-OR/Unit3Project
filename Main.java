@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Will transform statements as well as react to keywords
  *   jhfdfgfg
  * @author 
- * @version 
+ * @version  
  *
  */
 public class Main
@@ -54,9 +54,11 @@ public class Main
             response = "Tell me more about your family.";
         }
         //Complete Part 3 below
+        else if (findKeyword(statement, "dog", 0) >= 0 || findKeyword(statement, "dog", 0) >= 0){
+            response = "Tell me more about your pets.";
+        }
         
-        
-        
+
         //Do not change anything else in this method below here until part 5 and 6
         else if (findKeyword(statement, "I want to", 0) >= 0)
         {
